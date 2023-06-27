@@ -4,13 +4,13 @@ Meteora é um modelo de ecommerce desenvolvido durante o Sétimo Challenge Front
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Meteor**
+| :sparkles: Nome        | **Meteora**
 | :label: Tecnologias | JavaScript, html, css
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://meteora-rosy.vercel.app/#
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-7?host=https://cursos.alura.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](assets/print.pngo#vitrinedev)
 
 ## Detalhes do projeto
 
