@@ -1,0 +1,101 @@
+.novidades {
+    padding: 0.8rem;
+    width: 100vw;
+}
+
+.novidades__titulo {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.novidades__card {
+    margin:0 1rem 2rem 1rem;
+}
+
+.card__imagem--tablet, .card__imagem--desktop, .card__imagem--mobile {
+    width: 100%;
+}
+
+.card__informacoes {
+    border: 1px solid var(--cinza);
+    border-top: none;
+    padding: 1rem;
+}
+
+.card__titulo, .card__preco {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card__descricao {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+.card__botao {
+    align-items: center;
+    background: var(--roxo-meteora);
+    color: var(--branco);
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+.card__imagem--tablet, .card__imagem--desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .novidades {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .novidades__titulo {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .novidades__card {
+        width: 45%;
+    }
+
+    .card__imagem--desktop, .card__imagem--mobile {
+        display: none;
+    }
+
+    .card__imagem--tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .novidades {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 5rem;
+    }
+
+    .novidades__card {
+        height: 38rem;
+        width: 30%;
+    }
+
+    .card__imagem--mobile, .card__imagem--tablet {
+        display: none;
+    }
+
+    .card__imagem--desktop {
+        display: block;
+    }
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Mobile/Favicon-48x.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <title>Meteora</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--  CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="cabecalho__desktop">
+            <h1 class="cabecalho__logo--mobile"><img src="./assets/Mobile/Logo mobile.png" alt="Logo Meteora"></h1>
+            <h1 class="cabecalho__logo--tablet"><img src="./assets/Tablet/Logo tablet.png" alt="Logo Meteora"></h1>
+            <h1 class="cabecalho__logo--desktop"><img src="./assets/Desktop/Logo desktop.png" alt="Logo Meteora"></h1>
+                
+            <ul class="cabecalho__lista">
+                <li><a href="#">Home</a></li>               
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Promoções</a></li>
+            </ul>
+        </div>
+            <div class="pesquisa__desktop">
+                <input type="search" name="pesquisa__input" class="pesquisa__input" placeholder="Digite algo">
+                <label for="pesquisa__input" ><button class="pesquisa__botao">Buscar</button></label>
+            </div>
+            <button class="menu__botao" id="menu__botao" ></button>
+            <nav class="menu__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <hr>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <hr>
+                    <li><a href="#">Novidades</a></li>
+                    <hr>
+                    <li><a href="#">Promoções</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="pesquisa">
+        <input type="search" name="pesquisa__input" class="pesquisa__input" placeholder="Digite algo">
+        <label for="pesquisa__input" ><button class="pesquisa__botao">Buscar</button></label>
+    </div>
+
+    <main>
+
+        <!-- BANNER -->
+        <section class="banner">
+
+            <div class="banner__mobile">
+           <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./assets/Mobile/Banner carousel 1 _ 375.png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Mobile/Banner carousel 2 _ 375.png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Mobile/Banner carousel 3 _ 375.png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </div>
+
+     <div class="banner__tablet">
+           <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./assets/Tablet/Banner carousel 1 _ 768.png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Tablet/Banner carousel 2 _ 768.png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Tablet/Banner carousel 3 _ 768.png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </div>
+
+     <div class="banner__dekstop">
+           <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./assets/Desktop/Banner carousel 1 _ 1440 (1).png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Desktop/Banner carousel 2 _ 1440 (1).png" alt=""></div>
+      <div class="swiper-slide"><img src="./assets/Desktop/Banner carousel 3 _ 1440 (1).png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </div>
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="categorias">
+            <h2 class="categorias__titulo"> Busque por categoria: </h2>
+            <div class="categorias__grid">
+                
+                <div class="categoria">
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                    </div>
+                    <h3 class="categoria__nome">Camisetas</h3>
+                </div>
+
+                <div class="categoria">
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-Bolsas.png" alt="Bolsa" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-Bolsas.png" alt="Bolsa" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-Bolsa.png" alt="Bolsa" >
+                    </div>
+                    <h3 class="categoria__nome">Bolsas</h3>
+                </div>
+
+                <div class="categoria">
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-calçados.png" alt="Calçados" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-calçados.png" alt="Calçados" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-Calçados.png" alt="Calçados" >
+                    </div>
+                    <h3 class="categoria__nome">Calçados</h3>
+                </div>
+
+                <div class="categoria">
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-calças.png" alt="Calças" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-calças.png" alt="Calças" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-calça.png" alt="Calças" >
+                    </div>
+                    <h3 class="categoria__nome">Calças</h3>
+                </div>
+
+                <div class="categoria">
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-Casacos.png" alt="Casacos" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-casacos.png" alt="Casacos" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-casacos.png" alt="Casacos" >
+                    </div>
+                    <h3 class="categoria__nome">Casacos</h3>
+                </div>
+
+                <div class="categoria"> 
+                    <div class="categoria__imagem--mobile">
+                        <img src="./assets/Mobile/Categorias/Categoria-óculos.png" alt="Óculos" >
+                    </div>
+                    <div class="categoria__imagem--tablet">
+                        <img src="./assets/Tablet/Categorias/Categoria-óculos.png" alt="Óculos" >
+                    </div>
+                    <div class="categoria__imagem--dekstop">
+                        <img src="./assets/Desktop/Categorias/Categoria-óculos.png" alt="Óculos">
+                    </div>
+                    <h3 class="categoria__nome">Óculos</h3>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- NOVIDADES -->
+        <section class="novidades">
+            <h2  class="novidades__titulo">Produtos que estão bombando!</h2>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Card-camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/Camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
+                </div>
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Camiseta conforto</h3>
+                    <p class="card__descricao">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                    <p class="card__preco">R$ 70,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Card-calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/Calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
+                </div>
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Calça alfaiataria</h3>
+                    <p class="card__descricao">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+                    <p class="card__preco">R$ 180,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Card-tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/Tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
+                </div>
+            
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Tênis Chunky</h3>
+                    <p class="card__descricao">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                    <p class="card__preco">R$ 250,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Card-jaqueta-jeans.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/jaqueta-jeans.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/Jaqueta.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
+                </div>
+
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Jaqueta jeans</h3>
+                    <p class="card__descricao">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                    <p class="card__preco">R$ 150,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Cards-óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
+                </div>
+
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Óculos redondo</h3>
+                    <p class="card__descricao">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                    <p class="card__preco">R$ 120,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="novidades__card">
+                <div class="card__imagem--mobile">
+                    <img src="./assets/Mobile/Imagens cards/Card-bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
+                </div>
+                <div class="card__imagem--tablet">
+                    <img src="./assets/Tablet/Imagens Cards/bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
+                </div>
+                <div class="card__imagem--desktop">
+                    <img src="./assets/Desktop/Imagens Cards/Bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
+                </div>
+
+                <div class="card__informacoes">
+                    <h3 class="card__titulo">Bolsa Coringa</h3>
+                    <p class="card__descricao">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+                    <p class="card__preco">R$ 120,00</p>
+                    <button class="card__botao">Ver mais</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FACILIDADES -->
+        <section class="facilidades">
+            <h2 class="facilidades__titulo">Conheça todas as nossas facilidades</h2>
+        <div class="facilidades__conteudo">
+
+                <div class="facilidade">
+                    <div class="facilidade__imagem--mobile"><img src="./assets/Mobile/Ícones/x-diamond.png"></div>
+                    <div class="facilidade__imagem--tablet"><img src="./assets/Tablet/Ícones/x-diamond (1).png"></div>
+                    <div class="facilidade__imagem--desktop"><img src="./assets/Desktop/Ícones/x-diamond (2).png"></div>
+                    <div class="facilidade__descricao">
+                    <h3 class="facilidade__titulo">Pague pelo pix</h3>
+                    <p class="facilidade__texto">Ganhe 5% OFF em
+                        pagamentos via PIX</p>
+                </div>
+            </div>
+
+            <div class="facilidade">
+                <div class="facilidade__imagem--mobile"><img src="./assets/Mobile/Ícones/arrow-repeat.png"></div>
+                <div class="facilidade__imagem--tablet"><img src="./assets/Tablet/Ícones/arrow-repeat (1).png"></div>
+                <div class="facilidade__imagem--desktop"><img src="./assets/Desktop/Ícones/arrow-repeat (2).png"></div>
+                <div class="facilidade__descricao">
+                    <h3 class="facilidade__titulo">Troca grátis</h3>
+                    <p class="facilidade__texto">Fique livre para trocar em até 30 dias.</p>
+                </div>
+            </div>
+
+            <div class="facilidade">
+                <div class="facilidade__imagem--mobile"><img src="./assets/Mobile/Ícones/flower1.png"></div>
+                <div class="facilidade__imagem--tablet"><img src="./assets/Tablet/Ícones/flower1 (1).png"></div>
+                <div class="facilidade__imagem--desktop"><img src="./assets/Desktop/Ícones/flower1 (3).png"></div>
+                <div class="facilidade__descricao">
+                    <h3 class="facilidade__titulo">Sustentabilidade</h3>
+                    <p class="facilidade__texto">Moda responsável, que respeita o meio ambiente.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato">
+            <div class="contato__conteudo">
+                <p class="contato__texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>
+                <div class="contato__campo">
+                    <input type="email" name="contato__input" class="contato__input" placeholder="Digite seu email">
+                    <label for="contato__input"><button class="contato__botao">Enviar</button></label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>
+            2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/mobile.js"></script>
+</body>
+</html>

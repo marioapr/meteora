@@ -1,0 +1,139 @@
+.cabecalho {
+    align-items: center;
+    background: var(--preto);
+    color: var(--cinza);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    position: relative;
+}
+
+.menu__botao {
+    background-image: url('../Mobile/Ícones/menu-hamburguer.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1.5rem;
+    transition: 0.25s ease-in-out;
+    width: 1.5rem;
+}
+
+.menu__nav {
+    background: var(--cor-menu);
+    display: none;
+    right: 0;
+    padding: 1.5rem 1.5rem 0;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+}
+
+.menu__nav-ativo {
+    display: block;
+}
+
+.menu__nav ul li {
+    margin-bottom: 1rem;
+}
+
+.menu__nav ul li:first-child {
+    color: var(--verde-meteora);
+}
+
+.pesquisa {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.pesquisa__input {
+    border: 1px solid var(--preto);
+    padding: 0.5rem;
+}
+
+.pesquisa__input:focus {
+    border: 1px solid var(--verde-meteora);
+}
+
+.pesquisa__botao {
+    border: 1px solid var(--preto);
+    font-weight: 500;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.pesquisa__botao:active {
+    background-color: var(--preto);
+    color: #FFFFFF;
+}
+
+.cabecalho__lista {
+    display: none;
+}
+
+.pesquisa__desktop {
+    display: none;
+}
+
+.cabecalho__logo--tablet, .cabecalho__logo--desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__nav {
+        display: none;
+    }
+    .menu__botao {
+        display: none;
+    }
+    .pesquisa {
+        display: none;
+    }
+
+    .cabecalho__desktop {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cabecalho__logo--desktop, .cabecalho__logo--mobile {
+        display: none;
+    }
+
+    .cabecalho__logo--tablet {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+    }
+
+    .cabecalho__lista li {
+        margin-right: 1rem;
+    }
+
+    .pesquisa__desktop {
+        display: flex;
+    }
+
+    .pesquisa__input{
+        width: 15vw;
+       
+    }
+
+    .pesquisa__botao {
+        border: 1px solid var(--cinza);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho__logo--mobile, .cabecalho__logo--tablet {
+        display: none;
+    }
+    
+   .cabecalho__logo--desktop {
+    display: block;
+    margin-right: 2rem;
+   }
+}

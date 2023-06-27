@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('./assets/css/cabecalho.css');
+@import url('./assets/css/banner.css');
+@import url('./assets/css/categorias.css');
+@import url('./assets/css/novidades.css');
+@import url('./assets/css/facilidades.css');
+@import url('./assets/css/contato.css');
+@import url('./assets/css/rodape.css');
+
+
+:root {
+    --fonte: 'Inter', sans-serif;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #CCCCCC;
+    --verde-meteora: #DAFF01;
+    --roxo-meteora:  #9353FF;
+    --cor-menu: #343A40;
+    /* CORES COMPLEMENTARES */
+    --coral-meteora: #EE6471;
+    --laranja-meteora: #F87F46;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 1rem;
+    font-weight: 400;
+    height: 100vh;
+    max-width: 100vw;
+}
