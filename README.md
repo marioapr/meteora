@@ -10,7 +10,7 @@ Meteora é um modelo de ecommerce desenvolvido durante o Sétimo Challenge Front
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-7?host=https://cursos.alura.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](assets/print.pngo#vitrinedev)
+![](assets/print.png#vitrinedev)
 
 ## Detalhes do projeto
 
