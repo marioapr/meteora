@@ -69,6 +69,7 @@
 @media screen and (min-width:1024px) {
     .facilidades{
         padding: 3rem 5.5rem;
+        max-width: 100vw;
     }
 
     .facilidades__conteudo {

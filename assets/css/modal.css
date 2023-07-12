@@ -1,0 +1,129 @@
+.modal__contato--preto {
+    align-items: center;
+    background: var(--preto);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.modal__contato--preto p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0 1.4rem ;
+}
+
+.modal__contato--fechar {
+    background-image: url('../Mobile/Ícones/Icon_fechar_modal.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-self: end;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.modal__contato {
+    padding: 0;
+    border: none;
+}
+
+.modal__contato--branco {
+    color: var(--preto);
+    font-size: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+
+.modal__contato::backdrop{
+    background: rgba(0, 0, 0, .7);
+}
+
+/* MODAL PRODUTO */
+
+.modal__produto {
+    border: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.modal__produto--conteudo {
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.modal__imagem--mobile {
+    width: 100%;
+}
+
+.modal__imagem--dekstop {
+    display: none;
+}
+
+.modal__informacoes {
+    padding: 0 1rem;
+}
+
+.modal__produto--nome {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.modal__produto--linha {
+    background-color: var(--preto);
+    height: 2px;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.modal__produto--preco {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.modal__produto--loja {
+    color: var(--cinza);
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+.modal__produto--legenda {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.modal__produto--formulario {
+    display: flex;
+}
+
+.modal__produto--formulario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.modal__produto--formulario label {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.modal__produto--botao {
+    align-self: flex-start;
+    background: var(--roxo-meteora);
+    color: var(--branco);
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+    .modal__produto {
+        width: 70vw;
+    }
+    .modal__produto--conteudo {
+       display: flex;
+    }
+}

@@ -28,8 +28,8 @@
             </ul>
         </div>
             <div class="pesquisa__desktop">
-                <input type="search" name="pesquisa__input" class="pesquisa__input" placeholder="Digite algo">
-                <label for="pesquisa__input" ><button class="pesquisa__botao">Buscar</button></label>
+                <input type="search" name="pesquisa__input" class="pesquisa__input" placeholder="Digite algo" data-pesquisa-desktop>
+                <label for="pesquisa__input" ><button class="pesquisa__botao" data-botao-pesquisaD>Buscar</button></label>
             </div>
             <button class="menu__botao" id="menu__botao" ></button>
             <nav class="menu__nav">
@@ -129,202 +129,90 @@
             <h2 class="categorias__titulo"> Busque por categoria: </h2>
             <div class="categorias__grid">
                 
-                <div class="categoria">
+                <button class="categoria" id="categoria__camiseta" value="camiseta">
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                        <img src="./assets/Mobile/Categorias/Categoria-camiseta.png" >
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                        <img src="./assets/Tablet/Categorias/Categoria-camiseta.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-camiseta.png" alt="Camiseta" >
+                        <img src="./assets/Desktop/Categorias/Categoria-camiseta.png">
                     </div>
                     <h3 class="categoria__nome">Camisetas</h3>
-                </div>
+                </button>
 
-                <div class="categoria">
+                <button class="categoria" id="categoria__bolsa" value="bolsa">
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-Bolsas.png" alt="Bolsa" >
+                        <img src="./assets/Mobile/Categorias/Categoria-Bolsas.png">
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-Bolsas.png" alt="Bolsa" >
+                        <img src="./assets/Tablet/Categorias/Categoria-Bolsas.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-Bolsa.png" alt="Bolsa" >
+                        <img src="./assets/Desktop/Categorias/Categoria-Bolsa.png">
                     </div>
                     <h3 class="categoria__nome">Bolsas</h3>
-                </div>
+                </button>
 
-                <div class="categoria">
+                <button class="categoria" id="categoria__calcados" value="calcados">
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-calçados.png" alt="Calçados" >
+                        <img src="./assets/Mobile/Categorias/Categoria-calçados.png">
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-calçados.png" alt="Calçados" >
+                        <img src="./assets/Tablet/Categorias/Categoria-calçados.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-Calçados.png" alt="Calçados" >
+                        <img src="./assets/Desktop/Categorias/Categoria-Calçados.png">
                     </div>
                     <h3 class="categoria__nome">Calçados</h3>
-                </div>
+                </button>
 
-                <div class="categoria">
+                <button class="categoria" id="categoria__calca" value="calca">
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-calças.png" alt="Calças" >
+                        <img src="./assets/Mobile/Categorias/Categoria-calças.png">
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-calças.png" alt="Calças" >
+                        <img src="./assets/Tablet/Categorias/Categoria-calças.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-calça.png" alt="Calças" >
+                        <img src="./assets/Desktop/Categorias/Categoria-calça.png">
                     </div>
                     <h3 class="categoria__nome">Calças</h3>
-                </div>
+                </button>
 
-                <div class="categoria">
+                <button class="categoria" id="categoria__casaco" value="casaco">
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-Casacos.png" alt="Casacos" >
+                        <img src="./assets/Mobile/Categorias/Categoria-Casacos.png">
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-casacos.png" alt="Casacos" >
+                        <img src="./assets/Tablet/Categorias/Categoria-casacos.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-casacos.png" alt="Casacos" >
+                        <img src="./assets/Desktop/Categorias/Categoria-casacos.png">
                     </div>
                     <h3 class="categoria__nome">Casacos</h3>
-                </div>
+                </button>
 
-                <div class="categoria"> 
+                <button class="categoria" id="categoria__oculos" value="oculos"> 
                     <div class="categoria__imagem--mobile">
-                        <img src="./assets/Mobile/Categorias/Categoria-óculos.png" alt="Óculos" >
+                        <img src="./assets/Mobile/Categorias/Categoria-óculos.png">
                     </div>
                     <div class="categoria__imagem--tablet">
-                        <img src="./assets/Tablet/Categorias/Categoria-óculos.png" alt="Óculos" >
+                        <img src="./assets/Tablet/Categorias/Categoria-óculos.png">
                     </div>
                     <div class="categoria__imagem--dekstop">
-                        <img src="./assets/Desktop/Categorias/Categoria-óculos.png" alt="Óculos">
+                        <img src="./assets/Desktop/Categorias/Categoria-óculos.png">
                     </div>
                     <h3 class="categoria__nome">Óculos</h3>
-                </div>
+                </button>
                 
             </div>
         </section>
 
         <!-- NOVIDADES -->
-        <section class="novidades">
+        <section class="novidades" data-novidades>
             <h2  class="novidades__titulo">Produtos que estão bombando!</h2>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Card-camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/Camiseta.png" alt="Um homem ao centro dando destaque para camiserta conforto laranja que ese esta usando">
-                </div>
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Camiseta conforto</h3>
-                    <p class="card__descricao">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
-                    <p class="card__preco">R$ 70,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Card-calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/Calça.png" alt="Uma mulher ao centro de uma paisagem de deserto, dando destaque para sua calça bege">
-                </div>
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Calça alfaiataria</h3>
-                    <p class="card__descricao">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
-                    <p class="card__preco">R$ 180,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Card-tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/Tenis.png" alt="Foto dos pés de uma pessoa numa poça de água, dando destaque ao tênis">
-                </div>
-            
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Tênis Chunky</h3>
-                    <p class="card__descricao">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
-                    <p class="card__preco">R$ 250,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Card-jaqueta-jeans.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/jaqueta-jeans.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/Jaqueta.png" alt="Um homem parado en frente a uma parede branca, usando roupas casuais e dando destaque para a jaqueta jeans">
-                </div>
-
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Jaqueta jeans</h3>
-                    <p class="card__descricao">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-                    <p class="card__preco">R$ 150,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Cards-óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/óculos.png" alt="Um homem deitado em frente a um notebook e com cachorro no colo, e com foco no óculos dele">
-                </div>
-
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Óculos redondo</h3>
-                    <p class="card__descricao">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
-                    <p class="card__preco">R$ 120,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
-
-            <div class="novidades__card">
-                <div class="card__imagem--mobile">
-                    <img src="./assets/Mobile/Imagens cards/Card-bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
-                </div>
-                <div class="card__imagem--tablet">
-                    <img src="./assets/Tablet/Imagens Cards/bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
-                </div>
-                <div class="card__imagem--desktop">
-                    <img src="./assets/Desktop/Imagens Cards/Bolsa.png" alt="Foto  parte inferior de uma mulher com roupas elegantes, dando destaque a bolsa">
-                </div>
-
-                <div class="card__informacoes">
-                    <h3 class="card__titulo">Bolsa Coringa</h3>
-                    <p class="card__descricao">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
-                    <p class="card__preco">R$ 120,00</p>
-                    <button class="card__botao">Ver mais</button>
-                </div>
-            </div>
         </section>
 
         <!-- FACILIDADES -->
@@ -373,6 +261,7 @@
                     <input type="email" name="contato__input" class="contato__input" placeholder="Digite seu email">
                     <label for="contato__input"><button class="contato__botao">Enviar</button></label>
                 </div>
+                <span class="contato__erro"></span>
             </div>
         </section>
     </main>
@@ -384,6 +273,387 @@
         </p>
     </footer>
 
+    <section id="section__modal">
+
+    </section>
+
+    <!-- MODAL -->
+    <dialog class="modal__contato">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" class="modal__contato--imagem">
+            <p >E-mail cadastrado com sucesso!</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__contato--branco">
+            <p>Em breve você receberá novidades exclusivas da Meteora.</p>
+        </div>
+    </dialog>
+
+    
+
+    <dialog class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Card-camiseta.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/Camiseta.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Camiseta conforto</h3>
+            <p  class="modal__produto--descricao">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 70,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Azul claro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Offwhite</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <hr>
+             <P class="modal__produto--legenda">Tamanho:</P>
+            <form action=""  class="modal__produto--formulario">
+
+                <div>
+                    <input type="radio" name="pp" id="">
+                    <label for="pp">PP</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="p" id="">
+                    <label for="p">P</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="m" id="">
+                    <label for="m">M</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="g" id="">
+                    <label for="g">G</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gg" id="">
+                    <label for="gg">GG</label>
+                </div>
+            </form>
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <dialog  class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Card-calça.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/Calça.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Calça alfaiataria</h3>
+            <p  class="modal__produto--descricao">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 180,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Azul claro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Offwhite</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <hr>
+             <P class="modal__produto--legenda">Tamanho:</P>
+            <form action=""  class="modal__produto--formulario">
+
+                <div>
+                    <input type="radio" name="pp" id="">
+                    <label for="pp">PP</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="p" id="">
+                    <label for="p">P</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="m" id="">
+                    <label for="m">M</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="g" id="">
+                    <label for="g">G</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gg" id="">
+                    <label for="gg">GG</label>
+                </div>
+            </form>
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <dialog class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Card-tenis.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/Tenis.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Tênis Chunky</h3>
+            <p  class="modal__produto--descricao">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 250,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Azul claro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Offwhite</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <hr>
+             <P class="modal__produto--legenda">Tamanho:</P>
+            <form action=""  class="modal__produto--formulario">
+
+                <div>
+                    <input type="radio" name="pp" id="">
+                    <label for="pp">36/37</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="p" id="">
+                    <label for="p">38/39</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="m" id="">
+                    <label for="m">40/41</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="g" id="">
+                    <label for="g">42/43</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gg" id="">
+                    <label for="gg">44</label>
+                </div>
+            </form>
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <dialog  class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Card-jaqueta-jeans.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/Jaqueta.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Jaqueta Jeans</h3>
+            <p  class="modal__produto--descricao">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 150,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Azul claro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Offwhite</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <hr>
+             <P class="modal__produto--legenda">Tamanho:</P>
+            <form action=""  class="modal__produto--formulario">
+
+                <div>
+                    <input type="radio" name="pp" id="">
+                    <label for="pp">PP</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="p" id="">
+                    <label for="p">P</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="m" id="">
+                    <label for="m">M</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="g" id="">
+                    <label for="g">G</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gg" id="">
+                    <label for="gg">GG</label>
+                </div>
+            </form>
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <dialog  class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Cards-óculos.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/óculos.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Óculos redondo</h3>
+            <p  class="modal__produto--descricao">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 120,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Azul claro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Offwhite</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <dialog  class="modal__produto">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
+            <p>Confira detalhes sobre o produto</p>
+            <button class="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__produto--conteudo">
+        <div>
+            <img src="./assets/Mobile/Imagens cards/Card-bolsa.png" alt="" class="modal__imagem--mobile">
+            <img src="./assets/Desktop/Imagens Cards/Bolsa.png" alt="" class="modal__imagem--dekstop">
+        </div>
+        <div class="modal__informacoes">
+            <h3  class="modal__produto--nome">Bolsa Coringa</h3>
+            <p  class="modal__produto--descricao">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+            
+            <div class="modal__produto--linha"></div>
+            <p  class="modal__produto--preco">R$ 120,00</p>
+            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
+
+            <hr>
+            <P class="modal__produto--legenda">Cores:</P>
+            <form class="modal__produto--formulario">
+                <div>
+                    <input type="radio" name="azul-claro" id="">
+                    <label for="azul-claro">Couro</label>
+                </div>
+                <div>
+                    <input type="radio" name="offwhite" id="">
+                    <label for="offwhite">Branco</label>
+                </div>
+                <div>
+                    <input type="radio" name="preto" id="">
+                    <label for="preto">Preto</label>
+                </div>
+            </form>
+
+            <button class="modal__produto--botao">Adicionar à sacola</button>
+        </div>
+    </div>
+    </dialog>
+
+    <script src="./assets/js/main.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/js/mobile.js"></script>
 </body>

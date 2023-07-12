@@ -6,6 +6,7 @@
 @import url('./assets/css/facilidades.css');
 @import url('./assets/css/contato.css');
 @import url('./assets/css/rodape.css');
+@import url('./assets/css/modal.css');
 
 
 :root {
@@ -23,6 +24,7 @@
 
 * {
     box-sizing: border-box;
+    max-width: 100vw;
 }
 
 body {
@@ -34,3 +36,8 @@ body {
     height: 100vh;
     max-width: 100vw;
 }
+
+button:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,80 @@
+{
+"produtos":[
+        {
+    "imagemMobile": "./assets/Mobile/Imagens cards/Card-camiseta.png",
+    "imagemTablet":"./assets/Tablet/Imagens Cards/camiseta.png",
+    "imagemDesktop":"./assets/Desktop/Imagens Cards/Camiseta.png",
+    "nome": "Camiseta Conforto",
+    "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex",
+    "preco": "70,00",
+    "novidade":true,
+    "categoria": "camiseta",
+    "id": 0
+        },
+    {
+    "imagemMobile": "./assets/Mobile/Imagens cards/Card-calça.png",
+    "imagemTablet":"./assets/Tablet/Imagens Cards/calça.png",
+    "imagemDesktop":"./assets/Desktop/Imagens Cards/Calça.png",
+    "nome": "Calça Alfaiataria",
+    "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+    "preco": "180,00",
+    "novidade":true,
+    "categoria": "calca",
+    "id": 1
+    },
+    {
+        "imagemMobile": "./assets/Mobile/Imagens cards/Card-tenis.png",
+        "imagemTablet":"./assets/Tablet/Imagens Cards/tenis.png",
+        "imagemDesktop":"./assets/Desktop/Imagens Cards/Tenis.png",
+        "nome": "Tênis Chunky",
+        "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+        "preco": "R$ 250,00",
+        "novidade":true,
+        "categoria": "calcados",
+        "id": 2
+    },
+    {
+        "imagemMobile": "./assets/Mobile/Imagens cards/Card-jaqueta-jeans.png",
+        "imagemTablet":"./assets/Tablet/Imagens Cards/jaqueta-jeans.png",
+        "imagemDesktop":"./assets/Desktop/Imagens Cards/Jaqueta.png",
+        "nome": "Jaqueta Jeans",
+        "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+        "preco": "150,00",
+        "novidade":true,
+        "categoria": "casaco",
+        "id": 3
+    },
+    {
+        "imagemMobile": "./assets/Mobile/Imagens cards/Cards-óculos.png",
+        "imagemTablet":"./assets/Tablet/Imagens Cards/óculos.png",
+        "imagemDesktop":"./assets/Desktop/Imagens Cards/óculos.png",
+        "nome": "Óculos redondo",
+        "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+        "preco": "120,00",
+        "novidade":true,
+        "categoria": "oculos",
+        "id": 4
+    },
+    {
+        "imagemMobile": "./assets/Mobile/Imagens cards/Card-bolsa.png",
+        "imagemTablet":"./assets/Tablet/Imagens Cards/bolsa.png",
+        "imagemDesktop":"./assets/Desktop/Imagens Cards/Bolsa.png",
+        "nome": "Bolsa Coringa",
+        "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+        "preco": "120,00",
+        "novidade": true,
+        "categoria": "bolsa",
+        "id": 5
+    }, 
+    {
+        "imagemMobile": "./assets/Mobile/Imagens cards/Card-camiseta.png",
+        "imagemTablet":"./assets/Tablet/Imagens Cards/camiseta.png",
+        "imagemDesktop":"./assets/Desktop/Imagens Cards/Camiseta.png",
+        "nome": "Camisa",
+        "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+        "preco": "120,00",
+        "novidade": false,
+        "categoria": "camiseta",
+        "id": 6
+    }]
+}

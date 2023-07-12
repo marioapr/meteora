@@ -11,7 +11,7 @@
 }
 
 .novidades__card {
-    margin:0 1rem 2rem 1rem;
+    margin:0 0.5rem 2rem 0.5rem;
 }
 
 .card__imagem--tablet, .card__imagem--desktop, .card__imagem--mobile {
@@ -55,6 +55,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        padding: 0;
     }
 
     .novidades__titulo {

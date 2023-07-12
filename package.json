@@ -1,0 +1,22 @@
+{
+  "name": "meteora",
+  "version": "1.0.0",
+  "description": "Meteora é um modelo de ecommerce desenvolvido durante o Sétimo Challenge Front-end da Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioapr/meteora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioapr/meteora/issues"
+  },
+  "homepage": "https://github.com/marioapr/meteora#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
