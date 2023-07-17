@@ -115,7 +115,9 @@ que fiz e pretendo fazer isso.
 ## ⭐ Representação do projeto em diversas telas
 
 <div align="center">
-![Demonstração](<video src="assets/2023-07-17%2018-46-36.mp4" controls title="Title"></video>)
+![Demonstração](assets/printMobile.png)
+![Demonstração](assets/printTablet.png)
+![Demonstração](assets/printDesktop.png)
 </div>
 
 # 🙋‍♂️ Autor
