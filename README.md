@@ -115,9 +115,11 @@ que fiz e pretendo fazer isso.
 ## ⭐ Representação do projeto em diversas telas
 
 <div align="center">
+
 ![Demonstração](assets/printMobile.png)
 ![Demonstração](assets/printTablet.png)
 ![Demonstração](assets/printDesktop.png)
+
 </div>
 
 # 🙋‍♂️ Autor
