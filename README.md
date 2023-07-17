@@ -128,4 +128,3 @@ que fiz e pretendo fazer isso.
 
 Mário Anthony Pereira Rocha
 
-Acesse minha redes [aqui](https://social-links-v2.bohr.io/)
