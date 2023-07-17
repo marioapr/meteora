@@ -37,6 +37,7 @@
 .card__botao {
     align-items: center;
     background: var(--roxo-meteora);
+    border: none;
     color: var(--branco);
     display: flex;
     font-weight: 500;

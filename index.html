@@ -8,8 +8,10 @@
 
     <title>Meteora</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
@@ -263,7 +265,21 @@
                 </div>
                 <span class="contato__erro"></span>
             </div>
+               <!-- MODAL -->
+    <dialog class="modal__contato">
+        <div class="modal__contato--preto">
+            <img src="./assets/Mobile/Ícones/check-circle.svg" class="modal__contato--imagem">
+            <p >E-mail cadastrado com sucesso!</p>
+            <button class="modal__contato--fechar" id="modal__contato--fechar"></button>
+        </div>
+        <div class="modal__contato--branco">
+            <p>Em breve você receberá novidades exclusivas da Meteora.</p>
+        </div>
+    </dialog>
+   
+
         </section>
+
     </main>
 
     <!-- RODAPÉ -->
@@ -273,388 +289,9 @@
         </p>
     </footer>
 
-    <section id="section__modal">
-
-    </section>
-
-    <!-- MODAL -->
-    <dialog class="modal__contato">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" class="modal__contato--imagem">
-            <p >E-mail cadastrado com sucesso!</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__contato--branco">
-            <p>Em breve você receberá novidades exclusivas da Meteora.</p>
-        </div>
-    </dialog>
-
-    
-
-    <dialog class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Card-camiseta.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/Camiseta.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Camiseta conforto</h3>
-            <p  class="modal__produto--descricao">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 70,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Azul claro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Offwhite</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <hr>
-             <P class="modal__produto--legenda">Tamanho:</P>
-            <form action=""  class="modal__produto--formulario">
-
-                <div>
-                    <input type="radio" name="pp" id="">
-                    <label for="pp">PP</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="p" id="">
-                    <label for="p">P</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="m" id="">
-                    <label for="m">M</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="g" id="">
-                    <label for="g">G</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="gg" id="">
-                    <label for="gg">GG</label>
-                </div>
-            </form>
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
-    <dialog  class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Card-calça.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/Calça.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Calça alfaiataria</h3>
-            <p  class="modal__produto--descricao">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 180,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Azul claro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Offwhite</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <hr>
-             <P class="modal__produto--legenda">Tamanho:</P>
-            <form action=""  class="modal__produto--formulario">
-
-                <div>
-                    <input type="radio" name="pp" id="">
-                    <label for="pp">PP</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="p" id="">
-                    <label for="p">P</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="m" id="">
-                    <label for="m">M</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="g" id="">
-                    <label for="g">G</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="gg" id="">
-                    <label for="gg">GG</label>
-                </div>
-            </form>
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
-    <dialog class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Card-tenis.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/Tenis.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Tênis Chunky</h3>
-            <p  class="modal__produto--descricao">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 250,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Azul claro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Offwhite</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <hr>
-             <P class="modal__produto--legenda">Tamanho:</P>
-            <form action=""  class="modal__produto--formulario">
-
-                <div>
-                    <input type="radio" name="pp" id="">
-                    <label for="pp">36/37</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="p" id="">
-                    <label for="p">38/39</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="m" id="">
-                    <label for="m">40/41</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="g" id="">
-                    <label for="g">42/43</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="gg" id="">
-                    <label for="gg">44</label>
-                </div>
-            </form>
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
-    <dialog  class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Card-jaqueta-jeans.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/Jaqueta.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Jaqueta Jeans</h3>
-            <p  class="modal__produto--descricao">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 150,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Azul claro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Offwhite</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <hr>
-             <P class="modal__produto--legenda">Tamanho:</P>
-            <form action=""  class="modal__produto--formulario">
-
-                <div>
-                    <input type="radio" name="pp" id="">
-                    <label for="pp">PP</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="p" id="">
-                    <label for="p">P</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="m" id="">
-                    <label for="m">M</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="g" id="">
-                    <label for="g">G</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="gg" id="">
-                    <label for="gg">GG</label>
-                </div>
-            </form>
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
-    <dialog  class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Cards-óculos.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/óculos.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Óculos redondo</h3>
-            <p  class="modal__produto--descricao">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 120,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Azul claro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Offwhite</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
-    <dialog  class="modal__produto">
-        <div class="modal__contato--preto">
-            <img src="./assets/Mobile/Ícones/check-circle.svg" alt="">
-            <p>Confira detalhes sobre o produto</p>
-            <button class="modal__contato--fechar"></button>
-        </div>
-        <div class="modal__produto--conteudo">
-        <div>
-            <img src="./assets/Mobile/Imagens cards/Card-bolsa.png" alt="" class="modal__imagem--mobile">
-            <img src="./assets/Desktop/Imagens Cards/Bolsa.png" alt="" class="modal__imagem--dekstop">
-        </div>
-        <div class="modal__informacoes">
-            <h3  class="modal__produto--nome">Bolsa Coringa</h3>
-            <p  class="modal__produto--descricao">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
-            
-            <div class="modal__produto--linha"></div>
-            <p  class="modal__produto--preco">R$ 120,00</p>
-            <p  class="modal__produto--loja">Vendido e entregue por Riachuelo</p>
-
-            <hr>
-            <P class="modal__produto--legenda">Cores:</P>
-            <form class="modal__produto--formulario">
-                <div>
-                    <input type="radio" name="azul-claro" id="">
-                    <label for="azul-claro">Couro</label>
-                </div>
-                <div>
-                    <input type="radio" name="offwhite" id="">
-                    <label for="offwhite">Branco</label>
-                </div>
-                <div>
-                    <input type="radio" name="preto" id="">
-                    <label for="preto">Preto</label>
-                </div>
-            </form>
-
-            <button class="modal__produto--botao">Adicionar à sacola</button>
-        </div>
-    </div>
-    </dialog>
-
     <script src="./assets/js/main.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/js/mobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

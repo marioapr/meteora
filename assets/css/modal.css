@@ -51,6 +51,10 @@
     padding: 1rem 1rem 3rem 1rem;
 }
 
+.modal__imagem--caixa {
+    width: 100%;
+}
+
 .modal__imagem--mobile {
     width: 100%;
 }
@@ -112,6 +116,7 @@
 
 .modal__produto--botao {
     align-self: flex-start;
+    border: none;
     background: var(--roxo-meteora);
     color: var(--branco);
     font-weight: 500;
@@ -120,10 +125,20 @@
 }
 
 @media screen and (min-width:1024px) {
-    .modal__produto {
-        width: 70vw;
+    .modal {
+        --bs-modal-width: 70vw;
     }
     .modal__produto--conteudo {
-       display: flex;
+       display: grid;
+       grid-template-columns: auto 1fr;
+    }
+
+    .modal__imagem--dekstop {
+        display: block;
+        width: 100%;
+    }
+
+    .modal__imagem--mobile {
+        display: none;
     }
 }
