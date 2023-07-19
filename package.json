@@ -4,8 +4,8 @@
   "description": "Meteora é um modelo de ecommerce desenvolvido durante o Sétimo Challenge Front-end da Alura",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch produtos.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
